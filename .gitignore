@@ -127,3 +127,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+#ignoring giant File
+FY20_Historical_Reservations_Full.csv
