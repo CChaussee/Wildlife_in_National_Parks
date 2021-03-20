@@ -1,15 +1,18 @@
-<b>Summary</b>
-The purpose of this assignment was to find usable data sets and extract, transform, and load them into a database to use the information for queries and further analysis. 
+<p>
+ <b>Summary</b>
+  The purpose of this assignment was to find usable data sets and extract, transform, and load them into a database to use the information for queries and further analysis. 
+</p>
 <b>Requirements:</b>
   jupyter notebooks- import pymongo and pandas
   mongodb compass
+<p>  
 <b>Extract:</b>
-Chelsea Chaussee, Cindy Jones, Lauren Toothaker, and Serena Baker representing "The Bones of Dreamers Past" will be analyzing two data sets from Recreation.gov https://ridb.recreation.gov/download (*** The reservation csv is exceptionally large and cannot be pushed to github. We each downloaded the file and saved the data one folder outside of the repository, in order to look through the data*** When opening jupyter notebook for this file be sure to be one file outside the repostiory or will not work.) and the American National Park Service(via Kaggle) https://www.kaggle.com/nationalparkservice/park-biodiversity?select=species.csv in order to coordinate native plants located near hiking trails.
+Chelsea Chaussee, Cindy Jones, Lauren Toothaker, and Serena Baker representing "The Bones of Dreamers Past" will be analyzing two data sets from Recreation.gov https://ridb.recreation.gov/download (*** The reservation csv is exceptionally large and cannot be pushed to github. We each downloaded the file and saved the data one folder outside of the repository, in order to look through the data*** When opening jupyter notebook for this file be sure to be one file outside the repostiory or will not work. We used the FY 2020, download file, unzip, and save one file outside repo.) and the American National Park Service(via Kaggle) https://www.kaggle.com/nationalparkservice/park-biodiversity?select=species.csv in order to coordinate native plants located near hiking trails.
 
 We will extract the csv formatted data files and join on park name, filter, and perform any additional cleaning as needed on the data to provide a final relational database.
 
 We will then load our final database into an ORM and present a final project report.
-
+</p>
 <b>Transform/Load:</b>
 The .ipynb can be ran in any order. The recreation_data1.ipynb does take 30-45 minutes to run.
 Starting with the parks.csv we read in the csv file and created an empty list to store our dictionary values. We kept all columns from this file. The collection was then uploaded into a database in Mongo.
