@@ -1,5 +1,5 @@
 Extract:
-Chelsea Chaussee, Cindy Jones, Lauren Toothaker, and Serena Baker representing "The Bones of Dreamers Past" will be analyzing two data sets from Recreation.gov https://ridb.recreation.gov/download (*** The reservation csv is exceptionally large and cannot be pushed to github. We each downloaded the file and saved the data one folder outside of the repository, in order to look through the data***) and the American National Park Service(via Kaggle) https://www.kaggle.com/nationalparkservice/park-biodiversity?select=species.csv in order to coordinate native plants located near hiking trails.
+Chelsea Chaussee, Cindy Jones, Lauren Toothaker, and Serena Baker representing "The Bones of Dreamers Past" will be analyzing two data sets from Recreation.gov https://ridb.recreation.gov/download (*** The reservation csv is exceptionally large and cannot be pushed to github. We each downloaded the file and saved the data one folder outside of the repository, in order to look through the data*** When opening jupyter notebook for this file be sure to be one file outside the repostiory or will not work.) and the American National Park Service(via Kaggle) https://www.kaggle.com/nationalparkservice/park-biodiversity?select=species.csv in order to coordinate native plants located near hiking trails.
 
 We will extract the csv formatted data files and join on park name, filter, and perform any additional cleaning as needed on the data to provide a final relational database.
 
@@ -26,5 +26,7 @@ Ideally, we would be setting up a collection that holds the unique Park Names an
 
 With this set up, you could identify all of the places to go to see a specific species, or you could pick a park to visit and know ahead of time what species you might see. Using the geocoordinates, you can identify parks that might have a large number of visitors at one time, or maybe are less busy due to fewer reservable locations.
 
+<p align="center">
+  <img src="https://github.com/CChaussee/Wildlife_in_National_Parks/blob/main/Images/Wildlife%20in%20National%20Parks%20ERD.PNG" />
+</p>
 
-![wildlife_erd](https://github.com/CChaussee/Wildlife_in_National_Parks/blob/main/Images/Wildlife%20in%20National%20Parks%20ERD.PNG)
