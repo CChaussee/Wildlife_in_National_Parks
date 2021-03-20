@@ -9,4 +9,6 @@ Each data source file has been created to be housed in it's own unique Mongo dat
 
 Ideally, we would be setting up a collection that holds the unique Park Names and an array of all the species that can be found there. Additionally we would build a collection of unique species and an array of all of the parks that they can be found in. Our third collection would be a unique list of park names and an array of all the geocoordinates of reservable facilities to stay at.
 
-With this set up, you could identify all of the places to go to see a specific species, or you could pick a park to visit and know ahead of time what species you might see. Using the geocoordinates, you can identify parks that might have a large number of visitors at one time, or maybe are less busy due to less reservable locations.
+With this set up, you could identify all of the places to go to see a specific species, or you could pick a park to visit and know ahead of time what species you might see. Using the geocoordinates, you can identify parks that might have a large number of visitors at one time, or maybe are less busy due to fewer reservable locations.
+
+![parks_output](
