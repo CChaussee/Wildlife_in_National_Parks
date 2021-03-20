@@ -4,6 +4,8 @@
 </p>
 <b>Requirements:</b>
   <p>jupyter notebooks- import pymongo and pandas
+ </p>
+ <p>
   mongodb compass
  </p>
 <p>  
