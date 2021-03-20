@@ -7,15 +7,18 @@ We will then load our final database into an ORM and present a final project rep
 
 Transform:
 Starting with the parks.csv we read in the csv file and created an empty list to store our dictionary values. We kept all columns from this file. The collection was then uploaded into a database in Mongo.
-![parks_output](https://github.com/CChaussee/Wildlife_in_National_Parks/blob/main/Images/parks_output.PNG) <p align="center">
+![parks_output](https://github.com/CChaussee/Wildlife_in_National_Parks/blob/main/Images/parks_output.PNG) 
+<p align="center">
   <img src="https://github.com/CChaussee/Wildlife_in_National_Parks/blob/main/Images/parks_output.PNG" />
 </p>
 For the species csv, we kept only a few columns and followed the same procedure as before to upload the collection into its own database within Mongo.
-![species_output](https://github.com/CChaussee/Wildlife_in_National_Parks/blob/main/Images/species_output.PNG) <p align="center">
+![species_output](https://github.com/CChaussee/Wildlife_in_National_Parks/blob/main/Images/species_output.PNG) 
+<p align="center">
   <img src="https://github.com/CChaussee/Wildlife_in_National_Parks/blob/main/Images/species_output.PNG" />
 </p>
 The recreation csv went through similar cleanup as the species file and was also loaded into its own database within Mongo.
-![recreation_output](https://github.com/CChaussee/Wildlife_in_National_Parks/blob/main/Images/recreation_output.PNG) <p align="center">
+![recreation_output](https://github.com/CChaussee/Wildlife_in_National_Parks/blob/main/Images/recreation_output.PNG) 
+<p align="center">
   <img src="https://github.com/CChaussee/Wildlife_in_National_Parks/blob/main/Images/recreation_output.PNG" />
 </p>
 Summary:
