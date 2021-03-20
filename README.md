@@ -19,6 +19,9 @@ The recreation csv went through similar cleanup as the species file and was also
 <p align="center">
   <img src="https://github.com/CChaussee/Wildlife_in_National_Parks/blob/main/Images/recreation_output.PNG" />
 </p>
+<p align="center">
+  <img src="https://github.com/CChaussee/Wildlife_in_National_Parks/blob/main/Images/mongo%20recreation_db.png" />
+</p>
 <b>Summary:</b>
 Each data source file has been created to be housed in it's own unique Mongo database. If we were to rework our files, a more usable form of this data would have been creating one Mongo database with multiple collections, one for each of the source datasets. Setting up the data this way would provide a more functional way to answer our original question: What parks could you visit to see certain animals?
 
