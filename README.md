@@ -15,7 +15,7 @@ For the species csv, we kept only a few columns and followed the same procedure 
 <p align="center">
   <img src="https://github.com/CChaussee/Wildlife_in_National_Parks/blob/main/Images/species_output.PNG" />
 </p>
-The recreation csv went through similar cleanup as the species file and was also loaded into its own database within Mongo. 
+The recreation csv went through similar cleanup as the species file and was also loaded into its own database within Mongo. The csv file is over 1 million rows and will take a bit of time to go through the dataset.
 <p align="center">
   <img src="https://github.com/CChaussee/Wildlife_in_National_Parks/blob/main/Images/recreation_output.PNG" />
 </p>
