@@ -11,4 +11,4 @@ Ideally, we would be setting up a collection that holds the unique Park Names an
 
 With this set up, you could identify all of the places to go to see a specific species, or you could pick a park to visit and know ahead of time what species you might see. Using the geocoordinates, you can identify parks that might have a large number of visitors at one time, or maybe are less busy due to fewer reservable locations.
 
-![parks_output](
+![parks_output](https://github.com/CChaussee/Wildlife_in_National_Parks/blob/main/Images/parks_output.PNG)
