@@ -3,11 +3,12 @@
   The purpose of this assignment was to find usable data sets and extract, transform, and load them into a database to use the information for queries and further analysis. 
 </p>
 <b>Requirements:</b>
-  jupyter notebooks- import pymongo and pandas
+  <p>jupyter notebooks- import pymongo and pandas
   mongodb compass
+ </p>
 <p>  
 <b>Extract:</b>
-Chelsea Chaussee, Cindy Jones, Lauren Toothaker, and Serena Baker representing "The Bones of Dreamers Past" will be analyzing two data sets from Recreation.gov https://ridb.recreation.gov/download (*** The reservation csv is exceptionally large and cannot be pushed to github. We each downloaded the file and saved the data one folder outside of the repository, in order to look through the data*** When opening jupyter notebook for this file be sure to be one file outside the repostiory or will not work. We used the FY 2020, download file, unzip, and save one file outside repo.) and the American National Park Service(via Kaggle) https://www.kaggle.com/nationalparkservice/park-biodiversity?select=species.csv in order to coordinate native plants located near hiking trails.
+Chelsea Chaussee, Cindy Jones, Lauren Toothaker, and Serena Baker representing "The Bones of Dreamers Past" will be analyzing two data sets from Recreation.gov https://ridb.recreation.gov/download (*** select FY2020, download the zipfile, save the csv file one folder outside the repository in order to have jupyter notebook work properly, file is too large to commit to github***) and the American National Park Service(via Kaggle) https://www.kaggle.com/nationalparkservice/park-biodiversity?select=species.csv in order to coordinate native plants located near hiking trails.
 
 We will extract the csv formatted data files and join on park name, filter, and perform any additional cleaning as needed on the data to provide a final relational database.
 
